@@ -1,0 +1,19 @@
+<div class="card">
+    <div class="card-body">
+    <form action="/AtualizarUser/:id" method="POST">
+    <input type="hidden" name="id" value="{{posts.dataValues.id}}">
+    <h1>Editar Usuário</h1>
+    <p><b>Nome:</b></p>
+    <input type="text"  name="Nome" value="{{posts.dataValues.Nome}}">
+    <br>
+    <p><b>Celular:</b></p>
+    <input type="text"  name="Celular" value="{{posts.dataValues.Celular}}">
+    <br>
+    <p><b>CPF:</b></p>
+    <input type="text" name="CPF" value="{{posts.dataValues.CPF}}">
+    <br>
+    <button class="btn btn success" type="submit">Editar</button>
+    </form>
+    </div>
+</div>
+    

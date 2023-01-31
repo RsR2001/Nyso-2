@@ -1,0 +1,17 @@
+<h2>Lotes Cadastrados</h2>
+<div class="card">
+    <div class="card-body">
+{{#each posts}}
+    <p><b>Tipo de Uva: {{dataValues.TipoUva}}</b></p>
+    <p><b>Horário da irrigação: {{dataValues.HorarioIrrigacao}}</b></p>
+    <p><b>Dia em que foi adubado: {{dataValues.DiaAdubacao}}</b></p>
+    <p><b>Houve presença de pragas?: {{dataValues.PresencaDePragas}}</b></p>
+    <p><b>Tipo de Praga: {{dataValues.TipoDePraga}}</b></p>
+    <small><b>Cadastro feito no dia: {{dataValues.createdAt}}</b></small>
+    <br>
+    <a href="/admin/DeletarLote/{{dataValues.id}}"><button class="btn btn-success">Deletar Lote</button></a>
+    <a href="/admin/AtualizarLote/{{dataValues.id}}"><button class="btn btn-success">Editar Lote</button></a>
+    <hr>
+{{/each}}
+</div>
+</div>

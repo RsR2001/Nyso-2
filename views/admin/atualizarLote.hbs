@@ -1,0 +1,25 @@
+<div class="card">
+    <div class="card-body">
+    <form action="/AtualizarLote/:id" method="POST">
+    <input type="hidden" name="id" value="{{posts.dataValues.id}}">
+    <h1>Editar Cadastro</h1>
+    <p><b>Tipo de Uva:</b></p>
+    <input type="text"  name="TipoUva" value="{{posts.dataValues.TipoUva}}">
+    <br>
+    <p><b>Horário de Irrigação:</b></p>
+    <input type="text" name="HorarioIrrigacao" value="{{posts.dataValues.HorarioIrrigacao}}">
+    <br>
+    <p><b>Dia de adubação:</b></p>
+    <input type="text" name="DiaAdubacao" value="{{posts.dataValues.DiaAdubacao}}">
+    <br>
+    <p><b>Houve presença de pragas?:</b></p>
+    <input type="text" name="PresencaDePragas" value="{{posts.dataValues.PresencaDePragas}}">
+    <br>
+    <p><b>Tipo de praga:</b></p>
+    <input type="text" name="TipoDePraga" value="{{posts.dataValues.TipoDePraga}}">
+    <br>
+    <button class="btn btn success" type="submit">Editar</button>
+    </form>
+    </div>
+</div>
+    

@@ -1,0 +1,20 @@
+Reformulamos o site de PP1 que estava com vários erros.
+
+Nyso - Site de gestão de vinhedos:
+Ajuda na administração de vinhedos.
+Facilita o trabalho do funcionário para registrar dados de seu lote.
+O patrão pode ver dados do lote de seu funcionário através de seu Banco de dados.
+
+
+Tivemos que refazer do zero hoje.
+-Handlebars funcionando
+-Cadastro de usuário funcionando (Dados enviando para o banco, não temos autenticação de login)
+-Registro de lotes funcionando (Dados enviando para o banco.)
+
+*NOVO
+
+ Atualização Do Nyso2
+
+-Deletar e atualizar lotes implementados.
+-Deletar e atualizar usuários implementados.
+

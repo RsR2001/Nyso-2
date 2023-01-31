@@ -1,0 +1,15 @@
+<h2>Usuários Cadastrados</h2>
+<div class="card">
+    <div class="card-body">
+{{#each posts}}
+    <p><b>Nome: {{dataValues.Nome}}</b></p>
+    <p><b>Celular: {{dataValues.Celular}}</b></p>
+    <p><b>CPF: {{dataValues.CPF}}</b></p>
+    <small><b>Cadastro feito no dia: {{dataValues.createdAt}}</b></small>
+    <br>
+    <a href="/admin/DeletarUser/{{dataValues.id}}"><button class="btn btn-success">Deletar Usuário</button></a>
+    <a href="/admin/AtualizarUser/{{dataValues.id}}"><button class="btn btn-success">Editar Usuário</button></a>
+    <hr>
+{{/each}}
+</div>
+</div>
